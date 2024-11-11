@@ -1,0 +1,115 @@
+header {
+    padding: 20px;
+    background-color: yellow;
+    text-align: center;
+}
+.header-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.logo {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+h1 {
+    font-size: 36px; 
+    margin: 0;
+}
+
+.horizontal-nav {
+    margin-top: 20px;
+}
+
+.horizontal-nav .button {
+    margin: 0 10px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.horizontal-nav .button:hover {
+    background-color: black;
+}
+
+.vertical-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.vertical-nav li {
+    margin-bottom: 20px;
+}
+
+.vertical-nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    background-color: rgb(223, 223, 9);
+    border-radius: 5px;
+}
+
+.vertical-nav a:hover {
+    background-color: rgb(221, 201, 240);
+}
+
+main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.titulo-imagen {
+    width: 500px; 
+    height: auto;
+    display: block; 
+    margin: 20px auto; 
+    transition: all 0.3s ease; 
+}
+
+.titulo-imagen:hover {
+    width: 1000px; 
+    cursor: pointer; 
+}
+
+
+.increase-size {
+    width: 500px; 
+}
+
+.resizable {
+    width: 20%;  
+    height: auto;
+    transition: transform 0.3s ease; 
+}
+
+.resizable:hover {
+    transform: scale(1.2); 
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: yellow;
+}
